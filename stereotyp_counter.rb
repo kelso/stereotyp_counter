@@ -30,7 +30,7 @@ end
 if ARGV.empty? or ARGV[0] == "-h" or ARGV[0] == "--help" then
   43.times do print "=" end
   puts "\nUSAGE:\n\n"
-  puts "  ruby ./stereotyp.rb \"image_***.jpg\" 2 5"
+  puts "  ruby ./stereotyp_counter.rb \"image_***.jpg\" 2 5"
   puts "\n"
   puts "  image_2.jpg\n  image_3.jpg\n  image_4.jpg\n  image_5.jpg"
   43.times do print "=" end
