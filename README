@@ -1,0 +1,35 @@
+StereotypCounter
+=================
+
+Little help to webmasters who must edit static html pages.
+It's a ruby script.
+
+For example we have this gallery:
+<img src="/images/img_1.jpg" />
+<img src="/images/img_2.jpg" />
+<img src="/images/img_3.jpg" />
+
+Now, customer wants to add new images. And you must copy&paste
+so many times and rewrite the number of photo. Don't waste
+your time, use the Stereotyp.
+
+Usage
+=====
+
+ruby ./stereotyp.rb 'image_***.jpg' 2 5
+
+output:
+image_2.jpg
+image_3.jpg
+image_4.jpg
+image_5.jpg
+
+First parameter is a string, where *** are replaced
+by number in cycle. Second and third parameter defines
+start and end position in cycle.
+
+Start number can be larger than end number (use if order of your
+gallery images are descending).
+
+Copyright (c) 2010 Stefan Huska <stefan.huska@gmail.com>
+
